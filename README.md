@@ -21,6 +21,7 @@ Quand matched[] contient 7 paires → la modal de victoire s'affiche.
 
 ------------------------------------------
 ------------ Comment jouer ?  ------------
+
 Clique sur une carte pour la retourner
 Clique sur une deuxième carte pour trouver sa paire
   - Si l'image correspond à la phrase → paire trouvée 
