@@ -1,0 +1,60 @@
+body {
+    background-color: #ffc1f3;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#score {
+    font-size: 22px;
+    margin: 10px;
+}
+
+#message {
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.grille {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.bouton {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.4;
+    border: none;
+}
+
+#rouge  { background-color: red; }
+#bleu   { background-color: blue; }
+#vert   { background-color: green; }
+#jaune  { background-color: yellow; }
+
+
+#btnDemarrer {
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+}
+
+#gameOver {
+    font-size: 22px;
+    color: rgb(70, 29, 68);
+    margin-top: 10px;
+    font-weight: bold;
+}

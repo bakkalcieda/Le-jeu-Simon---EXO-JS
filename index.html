@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src ="script/script.js"></script>
+</head>
+<body>  
+    <h1> Jeu Simon</h1>
+
+    <p id="message">Démarrer</p>
+    <p id="score">Score : 0</p>
+    <p id="gameOver"></p>
+
+    <button id="btnDemarrer" onclick="demarrerPartie()"> Démarrer</button>
+
+    <div class="grille">
+        <button id="rouge"  class="bouton" onclick="clicJoueur('rouge')"></button>
+        <button id="bleu"   class="bouton" onclick="clicJoueur('bleu')"></button>
+        <button id="vert"   class="bouton" onclick="clicJoueur('vert')"></button>
+        <button id="jaune"  class="bouton" onclick="clicJoueur('jaune')"></button>
+    </div>
+    
+</body>
+</html>l
